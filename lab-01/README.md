@@ -90,11 +90,11 @@ node server.js
 
 
 
-\## Screenshots
 
 
 
-Store screenshots of the home, about, time, and 404 endpoints in the screenshots folder.
+
+
 
 
 
