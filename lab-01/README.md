@@ -1,34 +1,108 @@
-# Lab 1: Node.js and Express Server
+\# Lab 1: Node.js and Express Server
 
-Name: Your Name
 
-Registration Number: Your Registration Number
 
-Section: Your Section
+\## Objective
 
-## Objective
 
-Create a Node.js HTTP server and implement routes using Express.js.
 
-## Installation
+To create a basic web server using Node.js and Express.js.
 
-npm install
 
-## Run the server
+
+\## Technologies Used
+
+
+
+\* Node.js
+
+\* Express.js
+
+\* JavaScript
+
+\* Visual Studio Code
+
+
+
+\## Installation
+
+
+
+Install Express using:
+
+
+
+```bash
+
+npm install express
+
+```
+
+
+
+\## How to Run
+
+
+
+Run the basic Node.js server:
+
+
+
+```bash
+
+node basic-server.js
+
+```
+
+
+
+Stop it using Ctrl+C before running the Express server.
+
+
+
+Run the Express server:
+
+
+
+```bash
 
 node server.js
 
-## Endpoints
+```
 
-- GET / - Welcome message
-- GET /about - Returns name and section
-- GET /time - Returns current date and time
-- GET /unknown - Returns a 404 message
 
-## Screenshots
 
-Add screenshots of all routes in the screenshots folder.
+\## API Endpoints
 
-## Conclusion
 
-Learned to create a Node.js server, define Express routes, and handle 404 responses.
+
+| Method | Endpoint | Description                       | Status        |
+
+| ------ | -------- | --------------------------------- | ------------- |
+
+| GET    | /        | Welcome message                   | 200 OK        |
+
+| GET    | /about   | Returns name and section as JSON  | 200 OK        |
+
+| GET    | /time    | Returns the current date and time | 200 OK        |
+
+| GET    | /unknown | Displays a not-found message      | 404 Not Found |
+
+
+
+\## Screenshots
+
+
+
+Store screenshots of the home, about, time, and 404 endpoints in the screenshots folder.
+
+
+
+\## Conclusion
+
+
+
+I learned how to create a Node.js HTTP server, use Express.js, define routes, return JSON responses, and handle unknown routes.
+
+
+
